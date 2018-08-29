@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import './index.css'
+import '../resources/sass/main.scss';
 import favicon from '../resources/img/favicon.png'
 
 const Layout = ({ children, data }) => (

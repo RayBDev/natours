@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './header.css';
+import Button from '../UI/Button/Button';
 import logoWhite from '../../resources/img/logo-white.png';
 
 const Header = () => (
@@ -13,8 +13,7 @@ const Header = () => (
         <span className="heading-primary--main">Outdoors</span>
         <span className="heading-primary--sub">is where life happens</span>
       </h1>
-
-      <a href="#" className="btn btn--white btn--animated">Discover our tours</a>
+      <Button color='white' animated={true}>Discover our tours</Button>
     </div>
   </header>
 );
