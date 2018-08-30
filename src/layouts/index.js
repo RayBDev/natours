@@ -1,7 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import '../resources/sass/main.scss';
+import '../resources/fonts/icon-font.css'
+import '../resources/sass/main.scss'
 import favicon from '../resources/img/favicon.png'
 
 const Layout = ({ children, data }) => (
@@ -10,10 +11,13 @@ const Layout = ({ children, data }) => (
       <title>{data.site.siteMetadata.description}</title>
       <meta name="description" content={data.site.siteMetadata.description} />
       <meta name="keywords" content={data.site.siteMetadata.keywords} />
-      <link rel="shortcut icon" type="image/png" href={favicon}/>
-      <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"></link>
+      <link rel="shortcut icon" type="image/png" href={favicon} />
+      <link
+        href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+        rel="stylesheet"
+      />
     </Helmet>
-      {children()}
+    {children()}
   </div>
 )
 

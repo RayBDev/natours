@@ -20,8 +20,7 @@ const About = () => (
         <p className="paragraph">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
           molestiae quaerat aliquid sequi veritatis vero debitis ullam neque
-          totam, aliquam voluptate excepturi temporibus culpa eveniet, facere
-          dolor odio cupiditate assumenda.
+          totam, aliquam voluptate excepturi temporibus culpa eveniet.
         </p>
         <h3 className="heading-tertiary u-margin-bottom-small">
           Live adventures like you never have before

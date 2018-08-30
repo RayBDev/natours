@@ -1,14 +1,16 @@
 import React from 'react'
 
-import Aux from '../components/hoc/Aux/Aux';
-import Header from '../components/Sections/Header/Header';
-import About from '../components/Sections/About/About';
+import Aux from '../components/hoc/Aux/Aux'
+import Header from '../components/Sections/Header/Header'
+import About from '../components/Sections/About/About'
+import Features from '../components/Sections/Features/Features'
 
 const IndexPage = () => (
   <Aux>
     <Header />
     <main>
       <About />
+      <Features />
     </main>
     {/* <section>
       <div className="row">
