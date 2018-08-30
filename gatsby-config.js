@@ -5,6 +5,7 @@ module.exports = {
     keywords: 'natours, nature tours'
   },
   plugins: [
-    'gatsby-plugin-react-helmet', `gatsby-plugin-sass`
+    'gatsby-plugin-react-helmet', `gatsby-plugin-sass`,
+    `gatsby-plugin-react-next`
   ],
 }

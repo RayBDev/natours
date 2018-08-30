@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Button from '../UI/Button/Button';
-import logoWhite from '../../resources/img/logo-white.png';
+import Button from '../../UI/Button/Button'
+import logoWhite from '../../../resources/img/logo-white.png'
 
 const Header = () => (
   <header className="header">
@@ -13,9 +13,11 @@ const Header = () => (
         <span className="heading-primary--main">Outdoors</span>
         <span className="heading-primary--sub">is where life happens</span>
       </h1>
-      <Button color='white' animated={true}>Discover our tours</Button>
+      <Button btnType="main" color="white" animated={true}>
+        Discover our tours
+      </Button>
     </div>
   </header>
-);
+)
 
 export default Header
