@@ -4,6 +4,9 @@ import Aux from '../components/hoc/Aux/Aux'
 import Header from '../components/Sections/Header/Header'
 import About from '../components/Sections/About/About'
 import Features from '../components/Sections/Features/Features'
+import Tours from '../components/Sections/Tours/Tours'
+import Testimonials from '../components/Sections/Testimonials/Testimonials'
+import Booking from '../components/Sections/Booking/Booking'
 
 const IndexPage = () => (
   <Aux>
@@ -11,6 +14,9 @@ const IndexPage = () => (
     <main>
       <About />
       <Features />
+      <Tours />
+      <Testimonials />
+      <Booking />
     </main>
     {/* <section>
       <div className="row">
