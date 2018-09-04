@@ -3,9 +3,10 @@ import React from 'react'
 const Button = props => {
   let button = null
   let btnClass = ''
+  let link = props.link ? props.link : '#'
   if (props.btnType === 'text') {
     button = (
-      <a href="#" className="btn-text">
+      <a href={link} className="btn-text">
         {props.children}
       </a>
     )
@@ -14,15 +15,15 @@ const Button = props => {
       props.animated ? 'btn--animated' : null
     }`
     button = (
-      <button href="#" className={btnClass}>
+      <a href={link} className={btnClass}>
         {props.children}
-      </button>
+      </a>
     )
   } else {
     button = (
-      <button href="#" className="btn">
+      <a href={link} className="btn">
         {props.children}
-      </button>
+      </a>
     )
   }
   return button

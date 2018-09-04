@@ -33,7 +33,12 @@ const Tour = props => {
               <p className="card__price-only">Only</p>
               <p className="card__price-value">{props.price}</p>
             </div>
-            <Button btnType="main" color="white" animated={true}>
+            <Button
+              btnType="main"
+              color="white"
+              animated={true}
+              link={props.link}
+            >
               Book now!
             </Button>
           </div>

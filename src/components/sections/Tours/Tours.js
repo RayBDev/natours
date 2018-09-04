@@ -18,6 +18,7 @@ const cardData = {
     },
     back: {
       price: '$297',
+      link: '#popup',
     },
   },
   card2: {
@@ -34,6 +35,7 @@ const cardData = {
     },
     back: {
       price: '$497',
+      link: '#popup',
     },
   },
   card3: {
@@ -50,6 +52,7 @@ const cardData = {
     },
     back: {
       price: '$897',
+      link: '#popup',
     },
   },
 }
@@ -63,6 +66,7 @@ for (let card in cardData) {
       heading={cardData[card].front.heading}
       features={cardData[card].front.features}
       price={cardData[card].back.price}
+      link={cardData[card].back.link}
     />
   )
 }
