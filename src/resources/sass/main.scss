@@ -7,16 +7,19 @@
 @import 'base/typography';
 @import 'base/utilities';
 
-@import 'components/button';
-@import 'components/bgVideo';
-@import 'components/header';
-@import 'components/about';
-@import 'components/features';
-@import 'components/tours';
-@import 'components/testimonials';
-@import 'components/booking';
-@import 'components/form';
+@import 'components/UI/button';
+@import 'components/UI/bgVideo';
 
+@import 'components/sections/about';
+@import 'components/sections/features';
+@import 'components/sections/tours';
+@import 'components/sections/testimonials';
+@import 'components/sections/booking';
+@import 'components/sections/form';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navigation';
 @import 'layout/grid';
 
 @import 'pages/home';

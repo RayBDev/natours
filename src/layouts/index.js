@@ -5,8 +5,13 @@ import '../resources/fonts/icon-font.css'
 import '../resources/sass/main.scss'
 import favicon from '../resources/img/favicon.png'
 
+import Aux from '../components/hoc/Aux/Aux'
+import Navigation from './Navigation/Navigation'
+import Header from './Header/Header'
+import Footer from './Footer/Footer'
+
 const Layout = ({ children, data }) => (
-  <div>
+  <Aux>
     <Helmet>
       <title>{data.site.siteMetadata.description}</title>
       <meta name="description" content={data.site.siteMetadata.description} />
@@ -17,8 +22,11 @@ const Layout = ({ children, data }) => (
         rel="stylesheet"
       />
     </Helmet>
+    <Navigation />
+    <Header />
     {children()}
-  </div>
+    <Footer />
+  </Aux>
 )
 
 export default Layout

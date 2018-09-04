@@ -1,16 +1,15 @@
 import React from 'react'
 
 import Aux from '../components/hoc/Aux/Aux'
-import Header from '../components/Sections/Header/Header'
-import About from '../components/Sections/About/About'
-import Features from '../components/Sections/Features/Features'
-import Tours from '../components/Sections/Tours/Tours'
-import Testimonials from '../components/Sections/Testimonials/Testimonials'
-import Booking from '../components/Sections/Booking/Booking'
+import About from '../components/sections/About/About'
+import Features from '../components/sections/Features/Features'
+import Tours from '../components/sections/Tours/Tours'
+import Testimonials from '../components/sections/Testimonials/Testimonials'
+import Booking from '../components/sections/Booking/Booking'
+import Popup from '../components/Popup/Popup'
 
 const IndexPage = () => (
   <Aux>
-    <Header />
     <main>
       <About />
       <Features />
@@ -18,6 +17,7 @@ const IndexPage = () => (
       <Testimonials />
       <Booking />
     </main>
+    <Popup />
     {/* <section>
       <div className="row">
         <div className="col-1-of-2">

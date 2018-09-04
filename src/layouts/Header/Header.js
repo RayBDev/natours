@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Button from '../../UI/Button/Button'
-import logoWhite from '../../../resources/img/logo-white.png'
+import Button from '../../components/UI/Button/Button'
+import logoWhite from '../../resources/img/logo-white.png'
 
 const Header = () => (
   <header className="header">
