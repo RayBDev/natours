@@ -34,9 +34,11 @@ const Popup = () => (
           neque. Aliquet sagittis id consectetur purus ut faucibus pulvinar
           elementum.
         </p>
-        <Button btnType="main" color="green" animated={true}>
-          Book Now
-        </Button>
+        <div className="popup__button">
+          <Button btnType="main" color="green" animated={true}>
+            Book Now
+          </Button>
+        </div>
       </div>
     </div>
   </div>
