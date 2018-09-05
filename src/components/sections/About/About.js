@@ -1,9 +1,12 @@
 import React from 'react'
 
 import Button from '../../UI/Button/Button'
-import Photo1 from '../../../resources/img/nat-1-large.jpg'
-import Photo2 from '../../../resources/img/nat-2-large.jpg'
-import Photo3 from '../../../resources/img/nat-3-large.jpg'
+import photo1 from '../../../resources/img/nat-1.jpg'
+import photo2 from '../../../resources/img/nat-2.jpg'
+import photo3 from '../../../resources/img/nat-3.jpg'
+import photo1Large from '../../../resources/img/nat-1-large.jpg'
+import photo2Large from '../../../resources/img/nat-2-large.jpg'
+import photo3Large from '../../../resources/img/nat-3-large.jpg'
 
 const About = () => (
   <section className="section-about">
@@ -33,21 +36,27 @@ const About = () => (
       </div>
       <div className="col-1-of-2">
         <div className="composition">
-          <img
-            src={Photo1}
-            alt="Photo 1"
-            className="composition__photo composition__photo--p1"
-          />
-          <img
-            src={Photo2}
-            alt="Photo 2"
-            className="composition__photo composition__photo--p2"
-          />
-          <img
-            src={Photo3}
-            alt="Photo 3"
-            className="composition__photo composition__photo--p3"
-          />
+        <img 
+          srcSet={`${photo1} 300w, ${photo1Large} 1000w`} 
+          sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" 
+          alt="Photo 1" 
+          className="composition__photo composition__photo--p1" 
+          src={photo1}
+        />
+        <img 
+          srcSet={`${photo2} 300w, ${photo2Large} 1000w`} 
+          sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" 
+          alt="Photo 2" 
+          className="composition__photo composition__photo--p2" 
+          src={photo2}
+        />
+        <img 
+          srcSet={`${photo3} 300w, ${photo3Large} 1000w`} 
+          sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" 
+          alt="Photo 3" 
+          className="composition__photo composition__photo--p3" 
+          src={photo3}
+        />
         </div>
       </div>
     </div>

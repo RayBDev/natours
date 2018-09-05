@@ -1,7 +1,10 @@
 import React from 'react'
 
 import FooterLink from './FooterLink/FooterLink'
-import logo from '../../resources/img/logo-green-2x.png'
+import logo1x from '../../resources/img/logo-green-1x.png'
+import logo2x from '../../resources/img/logo-green-2x.png'
+import logo1xSmall from '../../resources/img/logo-green-small-1x.png'
+import logo2xSmall from '../../resources/img/logo-green-small-2x.png'
 
 const menuLinkDetails = {
   first: {
@@ -40,7 +43,13 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
-        <img src={logo} alt="Full logo" className="footer__logo" />
+        <picture className="footer__logo">
+          <source
+            srcSet={`${logo1xSmall} 1x, ${logo2xSmall} 2x`}
+            media="(max-width: 37.5em)"
+          />
+          <img srcSet={`${logo1x} 1x, ${logo2x} 2x`} alt="Full logo" src={logo2x}/>
+        </picture>
       </div>
       <div className="row">
         <div className="col-1-of-2">
