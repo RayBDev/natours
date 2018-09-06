@@ -9,7 +9,7 @@ import photo2Large from '../../../resources/img/nat-2-large.jpg'
 import photo3Large from '../../../resources/img/nat-3-large.jpg'
 
 const About = () => (
-  <section className="section-about">
+  <section className="section-about" id="section-about">
     <div className="u-center-text u-margin-bottom-large">
       <h2 className="heading-secondary">
         Exciting tours for adventurous people
@@ -36,27 +36,27 @@ const About = () => (
       </div>
       <div className="col-1-of-2">
         <div className="composition">
-        <img 
-          srcSet={`${photo1} 300w, ${photo1Large} 1000w`} 
-          sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" 
-          alt="Photo 1" 
-          className="composition__photo composition__photo--p1" 
-          src={photo1}
-        />
-        <img 
-          srcSet={`${photo2} 300w, ${photo2Large} 1000w`} 
-          sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" 
-          alt="Photo 2" 
-          className="composition__photo composition__photo--p2" 
-          src={photo2}
-        />
-        <img 
-          srcSet={`${photo3} 300w, ${photo3Large} 1000w`} 
-          sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" 
-          alt="Photo 3" 
-          className="composition__photo composition__photo--p3" 
-          src={photo3}
-        />
+          <img
+            srcSet={`${photo1} 300w, ${photo1Large} 1000w`}
+            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+            alt="Photo 1"
+            className="composition__photo composition__photo--p1"
+            src={photo1}
+          />
+          <img
+            srcSet={`${photo2} 300w, ${photo2Large} 1000w`}
+            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+            alt="Photo 2"
+            className="composition__photo composition__photo--p2"
+            src={photo2}
+          />
+          <img
+            srcSet={`${photo3} 300w, ${photo3Large} 1000w`}
+            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+            alt="Photo 3"
+            className="composition__photo composition__photo--p3"
+            src={photo3}
+          />
         </div>
       </div>
     </div>

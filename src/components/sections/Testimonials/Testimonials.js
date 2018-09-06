@@ -42,7 +42,7 @@ const Testimonials = () => {
     )
   }
   return (
-    <section className="section-testimonials">
+    <section className="section-testimonials" id="section-testimonials">
       <BgVideo mp4Video={bgmp4Video} webmVideo={bgwebmVideo} />
       <div className="u-center-text u-margin-bottom-large">
         <h2 className="heading-secondary">We make people genuinely happy</h2>

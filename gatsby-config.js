@@ -9,5 +9,5 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-next`,
   ],
-  pathPrefix: `/natours/public`,
+  pathPrefix: `/natours`,
 }

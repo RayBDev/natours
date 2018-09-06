@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{71:function(t,o){t.exports={data:{site:{siteMetadata:{description:"Natours | Exciting tours for adventurous people",keywords:"natours, nature tours"}}},layoutContext:{}}}});
-//# sourceMappingURL=path----e094d89406302b063895.js.map

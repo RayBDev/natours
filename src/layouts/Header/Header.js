@@ -13,7 +13,12 @@ const Header = () => (
         <span className="heading-primary--main">Outdoors</span>
         <span className="heading-primary--sub">is where life happens</span>
       </h1>
-      <Button btnType="main" color="white" animated={true}>
+      <Button
+        btnType="main"
+        color="white"
+        animated={true}
+        link="#section-tours"
+      >
         Discover our tours
       </Button>
     </div>

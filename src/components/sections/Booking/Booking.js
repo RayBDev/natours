@@ -3,7 +3,7 @@ import React from 'react'
 import { Form, Input } from '../../Form/Form'
 
 const Booking = () => (
-  <section className="section-book">
+  <section className="section-book" id="section-book">
     <div className="row">
       <div className="book">
         <div className="book__form">
