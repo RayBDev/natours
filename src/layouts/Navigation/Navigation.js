@@ -35,7 +35,6 @@ class Navigation extends Component {
       links: linkState,
       checked: !this.state.checked,
     })
-    console.log(this.state.checked)
   }
 
   render() {
