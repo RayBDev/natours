@@ -59,4 +59,4 @@ You may also clone this repo to view the code and run it directly on your local 
 
 ## :email: Contact Me
 
-Contact me and view my portfolio at <https://www.rbernard.ca>
+Contact me and view my portfolio at <https://rbernard.ca>
