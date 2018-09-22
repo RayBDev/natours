@@ -1,7 +1,7 @@
 <p align="center">
     <img alt="Natours Project" src="https://github.com/RayBDev/natours/blob/master/src/resources/img/logo-green-2x.png" width="100" />
 </p>
----
+*****************
 
 Project Description
 
