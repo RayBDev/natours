@@ -1,8 +1,8 @@
 <p align="center">
-    <img alt="Project Name" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Natours Project" src="https://github.com/RayBDev/natours/blob/master/src/resources/img/logo-green-2x.png" width="60" />
 </p>
 <h1 align="center">
-  Project Name
+  Natours
 </h1>
 
 Project Description
@@ -25,7 +25,7 @@ You may also clone this repo to view the code and run it directly on your local 
 
 1.  **Install the Gatsby CLI.**
 
-    The Gatsby CLI helps you create new sites using Gatsby starters (like this one!)
+    Install the Gatsby CLI to work with this project.
 
     ```sh
     # install the Gatsby CLI globally
@@ -59,4 +59,4 @@ You may also clone this repo to view the code and run it directly on your local 
 
 ## :email: Contact Me
 
-You may contact me as well as view my portfolio at <https://www.rbernard.ca>
+Contact me and view my portfolio at <https://www.rbernard.ca>
