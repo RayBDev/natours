@@ -13,13 +13,16 @@ Some of the most interesting effects are the tour package cards and menu expansi
 ## :bookmark_tabs: Technologies Used
 
 1.  **HTML5 & CSS3**
+
     This website makes heavy use of HTML5 semantic elements along with BEM CSS3 naming convention.
     Several advanced CSS3 tactics were used to create a unique angled layout, innovative menu expansion and interactive hover effects throughout the website.
 
 2.  **SASS**
+
     Sass was used to keep the 500+ lines of CSS3 code organized, scalable, and maintainable. 
 
 3.  **React + Gatsby**
+
     Even though React was not a necessity in this project, it was used to keep everything organized along with list generation and contact form management.
 
 ## :computer: Getting Started
