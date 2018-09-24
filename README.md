@@ -4,17 +4,23 @@
 
 ___________________
 
-Project Description
+Natours is a company that sells nature touring packages to people who enjoy outdoor adventures. 
+This website uses many cutting edge CSS3 properties to create a unique layout and interactive animations.
+Take your time while browsing through this website as almost everything is animated with a unique hover effect. 
+Some of the most interesting effects are the tour package cards and menu expansion.
+
 
 ## :bookmark_tabs: Technologies Used
 
-1.  **Install the Gatsby CLI.**
+1.  **HTML5 & CSS3**
+    This website makes heavy use of HTML5 semantic elements along with BEM CSS3 naming convention.
+    Several advanced CSS3 tactics were used to create a unique angled layout, innovative menu expansion and interactive hover effects throughout the website.
 
-2)  **Create a Gatsby site.**
+2.  **SASS**
+    Sass was used to keep the 500+ lines of CSS3 code organized, scalable, and maintainable. 
 
-3.  **Start developing.**
-
-4)  **Open the source code and start editing!**
+3.  **React + Gatsby**
+    Even though React was not a necessity in this project, it was used to keep everything organized along with list generation and contact form management.
 
 ## :computer: Getting Started
 
